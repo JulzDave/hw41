@@ -1,0 +1,47 @@
+.acqCont{
+    background: url("./images/clipart83779.png");
+    background-size: 180px;
+    background-repeat: no-repeat;
+    color: black;
+    width: 200px;
+    height: 199px;
+    background-position-y: 10px;
+    background-position-x: 10px;
+    display: flex;
+    align-items: flex-end;
+    float: left;
+}
+
+.markBtn{
+    border: 3px dashed red;
+    background: darkturquoise;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 20px 4px dodgerblue;
+    transform: rotate(-5deg);
+    width: 130px;
+}
+
+.markBtn:hover{
+    background:blueviolet;
+    color:white
+}
+
+.markBtn:active{
+    background:rgb(255, 38, 38);
+    border:3px dashed white;
+
+}
+
+#ordersHeader{
+    position: absolute;
+    margin-left: 34%;
+    justify-content: center;
+    top: 30px;
+    color: red;
+    font-family: monospace;
+    font-size: -webkit-xxx-large;
+    letter-spacing: 23px;
+    text-shadow: 0 0 20px lightyellow;
+    z-index: 0;
+}

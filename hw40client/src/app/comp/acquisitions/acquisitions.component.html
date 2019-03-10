@@ -1,0 +1,15 @@
+<a routerLink="/orders">View as client</a><br/><br/><br/>
+<h1 id="ordersHeader">All Orders</h1>
+<div  *ngFor="let order of allOrders" >
+<div class="acqCont" *ngIf="!(order.order_was_sent)" >
+
+  <ul id="{{order._id}}"  >
+    <li>beverage: <br/><font color="red">{{order.beverage}}</font></li>
+    <li>meal: <br/><font color="red">{{order.meal}}</font></li>
+    <li>dessert: <br/><font color="red">{{order.dessert}}</font></li>
+    <br/>
+    <li><button class="markBtn" (click)="sent($event)">Mark as sent</button></li>
+  </ul>
+
+</div>
+</div>

@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(https://www.sbs.com.au/food/sites/sbs.com.au.food/files/styles/full/public/full_blue_burger.jpg?itok=kjFiYdxF);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-color: #2a39d4;
+    color: white;
+    background-blend-mode: lighten;
+    height: -webkit-fill-available;
+    overflow: hidden;
+}
+
+a{
+    color:yellow;
+    background: purple;
+    display: flex;
+    width: 204px;
+    height: 67px;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 28px;
+    transform: rotate(-45deg);
+    margin-left: -100px;
+    margin-top: -21px;
+    z-index: 999;
+}
+
+a:hover{
+    color:white;
+}
+
+a:active{
+    color:red;
+}

@@ -1,0 +1,17 @@
+<a routerLink="/acquisitions">View as Restaurant</a>
+<div id="ordersCont">
+<h3>Beverages:</h3>
+<select name="Beverages" id="Beverages" [(ngModel)]="selected_beverages">
+  <option *ngFor="let beverage of beverages" value="{{beverage}}">{{beverage}}</option>
+ </select>
+<h3>Lunch:</h3>
+<select name="Lunch" id="Lunch" [(ngModel)]="selected_lunch" >
+  <option *ngFor="let dish of lunch" value="{{dish}}">{{dish}}</option>
+ </select>
+<h3>Desserts:</h3>
+<select name="Desserts" id="Desserts" [(ngModel)]="selected_desserts" >
+  <option *ngFor="let Dessert of desserts" value="{{Dessert}}">{{Dessert}}</option>
+ </select><br/><br/><br/>
+ <button id="orderBtn" (click)="sendOrder()">Submit</button>
+ 
+</div>
