@@ -1,0 +1,11 @@
+{"_id":{"$oid":"5c82a6da05a57509406d42dd"},"our_drinks":["Water","Pepsi","Sprite","7-UP","Dr. peper","Tropit","Tuttit","Fuse-Tea","Fanta","Prigat","Kinly","Coca-Cola"],"our_meals":["Taco Salad","Chicken Terriyaki","Parmesan Wings","Mushroom Soup","Plain Rice","Garlic Rice","Toasted Bread","Juldavshik Noodles","Roasted Vegetables","French fries","Garlic Peanuts","Crunchy Squidheads"],"our_desserts":["Sabana Caramel","Mni Turon","Buko","Ice Cream Scoop","Cheese Crunch","Corn Shake"],"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c852f8c49628e0bccc5e81f"},"beverage":"Tuttit","meal":"Parmesan Wings","dessert":"Corn Shake","order_was_sent":true,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c855763fb59a020c858d1b2"},"beverage":"7-UP","meal":"Parmesan Wings","dessert":"Ice Cream Scoop","order_was_sent":true,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c855792fb59a020c858d1b3"},"beverage":"Water","meal":"Taco Salad","dessert":"Sabana Caramel","order_was_sent":true,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c8557a8fb59a020c858d1b4"},"beverage":"Fanta","meal":"Plain Rice","dessert":"Ice Cream Scoop","order_was_sent":false,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c85582ffb59a020c858d1b5"},"beverage":"Fuse-Tea","meal":"Garlic Rice","dessert":"Buko","order_was_sent":false,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c855837fb59a020c858d1b6"},"beverage":"Tropit","meal":"Plain Rice","dessert":"Cheese Crunch","order_was_sent":true,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c85583cfb59a020c858d1b7"},"beverage":"Sprite","meal":"Mushroom Soup","dessert":"Sabana Caramel","order_was_sent":false,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c855849fb59a020c858d1b8"},"beverage":"Water","meal":"Crunchy Squidheads","dessert":"Corn Shake","order_was_sent":false,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c855b3bfb59a020c858d1b9"},"beverage":"7-UP","meal":"Mushroom Soup","dessert":"Mni Turon","order_was_sent":false,"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5c855dd3fb59a020c858d1ba"},"beverage":"Kinly","meal":"French fries","dessert":"Sabana Caramel","order_was_sent":false,"__v":{"$numberInt":"0"}}
